@@ -5,9 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class LetsPlayApplication {
-
+ // used to run the embedded server 
 	public static void main(String[] args) {
+		// passes a reference
 		SpringApplication.run(LetsPlayApplication.class, args);
 	}
 
 }
+
+
+        
